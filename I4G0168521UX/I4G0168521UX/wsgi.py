@@ -1,5 +1,5 @@
 """
-WSGI config for PreciousOnyishi project.
+WSGI config for I4G0168521UX project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PreciousOnyishi.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'I4G0168521UX.settings')
 
 application = get_wsgi_application()
